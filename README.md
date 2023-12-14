@@ -1,3 +1,17 @@
-# flutter_training
+# 株式会社ゆめみ 研修課題
 
-A new Flutter project.
+##  環境構築
+
+```bash:install.sh
+# リポジトリをクローン
+git clone https://github.com/yousuke-0101/flutter-training.git
+cd flutter-training
+
+# FVMをインストール
+brew tap leavjenn/tap
+brew install fvm
+fvm use
+
+# パッケージをインストール
+fvm flutter pub get
+```
